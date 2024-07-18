@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.page{
+    text-align: center;
+}
+
+#login{
+    font-size: 25px;
+}
+
+.button{
+    color: white;
+    background-color: rgb(79, 147, 219);
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: rgb(40, 134, 235);
+}
+
+
+main {
+    padding: 2em;
+}
+
+main section {
+    margin-bottom: 2em;
+    background: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main section.hover{
+    color: #b4b6b2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #6e6e6e;
+    color: white;
+    width: 100%;
+}
+
+.img{
+    text-align: center;
+}
